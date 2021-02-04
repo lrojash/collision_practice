@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Collisions</title>
+    <script src='./js/GameWorld.js'></script>
+    <script src='./js/GameObject.js'></script>
+    <script src='./js/Square.js'></script>
 </head>
 
 <body>
@@ -11,7 +14,9 @@
 
     </canvas>
     <script>
-
+        window.onload = function ()  {
+            let gameWorld = new GameWorld('canvas')
+        }
     </script>
 </body>
 
